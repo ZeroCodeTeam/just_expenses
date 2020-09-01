@@ -35,7 +35,7 @@ youtube_username                          : #
 features                                  :
     
   - title                                 : Keep your data safe
-    description                           : Financial data are sensitive information, thus it is very important to understand where they are stored. With Just Expenses™ your data never leaves your phone. They are stored on device and only you have access to it.
+    description                           : Financial data are very sensitive information, thus it is important to understand where they are stored. With Just Expenses™ your data never leaves your phone. They are stored on your device and only you have access to it.
     fontawesome_icon_name                 : lock
 
   - title                                 : Offline is the new luxury
@@ -43,15 +43,15 @@ features                                  :
     fontawesome_icon_name                 : wifi
 
   - title                                 : Less is more
-    description                           : Our goal was to make a simple but powerful product to track spendings without compromising privacy. Having that in mind we developed an app that doesn't require any permission for running.
+    description                           : Our goal was to make a simple but powerful product. Having that in mind we developed an app that doesn't require any permission for running.
     fontawesome_icon_name                 : adjust
 
   - title                                 : Size does matter
-    description                           : We also care about your storage. The application is on average five times smaller than the competition. For those of you who do not have flagship phones, don't worry. This product will shine on your phone too.
+    description                           : We also care about your storage. For those of you who do not have flagship phones, don't worry. This product will shine on your phone too.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
   - title                                 : Always getting better
-    description                           : Just Expenses™ is constantly being updated and improved. We are fully dedicated to bring the best experience to our users so help us stand out by sending your feedback. Download and start saving money now.
+    description                           : Just Expenses™ is constantly being updated and improved. We are fully dedicated to bringing the best experience to our users so help us stand out by sending your feedback. Download and start saving money now.
     fontawesome_icon_name                 : forward
 
   - title                                 : #Need any help
