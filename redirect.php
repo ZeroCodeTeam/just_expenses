@@ -1,25 +1,25 @@
-define("PLAYSTORE_LINK", "https://play.google.com/store/apps/details?id=org.zerocode.justexpenses");
-define("APPSTORE_LINK", "https://apps.apple.com/us/app/just-expenses-app/id1373021367");
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        var userAgent = window.navigator.userAgent;
+        var urlToRedirect = '';
 
+        // Detect user's platform and set the appropriate URL
+        if (/iPhone|iPad|iPod/.test(userAgent)) {
+            urlToRedirect = 'https://apps.apple.com/us/app/just-expenses-app/id1373021367';
+        } else if (/Android/.test(userAgent)) {
+            urlToRedirect = 'https://play.google.com/store/apps/details?id=org.zerocode.justexpenses';
+        } else {
+            // Handle other platforms or provide a fallback URL
+            urlToRedirect = 'https://example.com';
+        }
 
-sny_os_redirect();
-function sny_os_redirect() {
-	if(sny_if_android() && PLAYSTORE_LINK){
-		header("Location: " . PLAYSTORE_LINK);
-	}elseif(sny_if_ios() && APPSTORE_LINK){
-		header("Location: ".APPSTORE_LINK);
-	}
-	
-}
-
-function sny_if_android() {
-	$ua = strtolower($_SERVER['HTTP_USER_AGENT']);
-	return stripos($ua, 'android');
-}
-
-function sny_if_ios() {
-	$iPod = stripos($_SERVER['HTTP_USER_AGENT'], "iPod");
-	$iPhone = stripos($_SERVER['HTTP_USER_AGENT'], "iPhone");
-	$iPad = stripos($_SERVER['HTTP_USER_AGENT'], "iPad");
-	return $iPod || $iPhone || $iPad ;
-}
+        // Perform the redirection
+        window.location.href = urlToRedirect;
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a href="https://example.com">click here</a>.</p>
+</body>
+</html>
