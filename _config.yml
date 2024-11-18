@@ -12,7 +12,7 @@ playstore_link                            : https://play.google.com/store/apps/d
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Just Expenses # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Simple Personal Finance Tracker # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Manage your finances with simplicity and security. With an intuitive interface, easily track expenses and income without hassle. Your data stays private—never leaving your device—ensuring complete safety while you manage your finances effortlessly.
+app_description                           : Manage your finances with simplicity and security. With an intuitive interface, easily track expenses and income without hassle. Your data stays private—never leaving your device.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -42,21 +42,21 @@ features                                  :
     description                           : No more waiting for data to load from remote servers. Our app was designed to work offline from day one, ensuring everything you need is right at your fingertips.
     fontawesome_icon_name                 : wifi
 
-  - title                                 : Simplicity with Powe
-    description                           : We aimed to create a product that is both simple and powerful. With this approach, we developed an app that runs seamlessly without needing any permissions.
+  - title                                 : Personalization
+    description                           : Take full control of your financial tracking by personalizing categories to match your unique spending habits. Tailor the app to reflect your lifestyle and get insights that are relevant to you, making budgeting and expense tracking more intuitive than ever.
+    fontawesome_icon_name                 : palette
+
+  - title                                 : Simplicity with Power
+    description                           : We aimed to create a product that is both simple and powerful. With this approach, we developed an app that runs seamlessly without needing any runtime permissions.
     fontawesome_icon_name                 : adjust
 
   - title                                 : Small App, Big Performance
     description                           : We understand storage matters, especially for non-flagship phones. Our app is lightweight yet powerful, ensuring it runs smoothly and efficiently on any device.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
-  - title                                 : Continuously Improving for You
-    description                           : Our app is constantly updated to deliver the best experience possible. We’re committed to enhancing your journey, and your feedback helps us grow even further. Download now and start managing your finances effortlessly while saving money.
+  - title                                 : Continuously Improving
+    description                           : We’re dedicated to providing the best experience with regular updates that enhance your journey. Your feedback is essential in shaping the app’s future. Share your ideas with us and start managing your finances with ease today!
     fontawesome_icon_name                 : forward
-
-  - title                                 : Your Ideas, Our Future
-    description                           : We’re always looking for ways to improve. Share your feature suggestions with us, and help shape the app to better suit your needs. Your feedback drives our innovation!
-    fontawesome_icon_name                 : comment
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
