@@ -1,5 +1,5 @@
 #page title
-page_title                                : Just Expenses: Track & Manage             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : "Just Expenses: Track & Manage"             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -10,7 +10,7 @@ playstore_link                            : https://play.google.com/store/apps/d
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Just Expenses: Track & Manage # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : "Just Expenses: Track & Manage" # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Simple Personal Finance Tracker # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Do you know where your money goes? Most of us don't. Just Expenses is a product designed to help you better understand how you spend your money.
 
