@@ -1,5 +1,5 @@
 #page title
-page_title                                : "Just Expenses: Track & Manage"             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Just Expenses             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -10,9 +10,9 @@ playstore_link                            : https://play.google.com/store/apps/d
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : "Just Expenses: Track & Manage" # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Just Expenses # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Simple Personal Finance Tracker # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Do you know where your money goes? Most of us don't. Just Expenses is a product designed to help you better understand how you spend your money.
+app_description                           : Manage your finances with simplicity and security. With an intuitive interface, easily track expenses and income without hassle. Your data stays private—never leaving your device—ensuring complete safety while you manage your finances effortlessly.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -34,29 +34,29 @@ youtube_username                          : #
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
     
-  - title                                 : Keep your data safe
-    description                           : Financial data are very sensitive information, thus it is important to understand where they are stored. With Just Expenses™ your data never leaves your phone. They are stored on your device and only you have access to it.
+  - title                                 : Keep Your Data Safe
+    description                           : Financial data is highly sensitive, making it essential to know where it’s stored. With our app, your data remains secure on your device and never leaves your phone. Only you have access, ensuring complete control and peace of mind.
     fontawesome_icon_name                 : lock
 
-  - title                                 : Offline is the new luxury
-    description                           : No busy waiting for data to be loaded from a remote server. We designed an app to work offline from day one. All you need is right there, in your hands.
+  - title                                 : Full Offline Access
+    description                           : No more waiting for data to load from remote servers. Our app was designed to work offline from day one, ensuring everything you need is right at your fingertips.
     fontawesome_icon_name                 : wifi
 
-  - title                                 : Less is more
-    description                           : Our goal was to make a simple but powerful product. Having that in mind we developed an app that doesn't require any permission for running.
+  - title                                 : Simplicity with Powe
+    description                           : We aimed to create a product that is both simple and powerful. With this approach, we developed an app that runs seamlessly without needing any permissions.
     fontawesome_icon_name                 : adjust
 
-  - title                                 : Size does matter
-    description                           : We also care about your storage. For those of you who do not have flagship phones, don't worry. This product will shine on your phone too.
+  - title                                 : Small App, Big Performance
+    description                           : We understand storage matters, especially for non-flagship phones. Our app is lightweight yet powerful, ensuring it runs smoothly and efficiently on any device.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
-  - title                                 : Always getting better
-    description                           : Just Expenses™ is constantly being updated and improved. We are fully dedicated to bringing the best experience to our users so help us stand out by sending your feedback. Download and start saving money now.
+  - title                                 : Continuously Improving for You
+    description                           : Our app is constantly updated to deliver the best experience possible. We’re committed to enhancing your journey, and your feedback helps us grow even further. Download now and start managing your finances effortlessly while saving money.
     fontawesome_icon_name                 : forward
 
-  - title                                 : Need any help
-    description                           : Don't hesitate to caontact us.
-    fontawesome_icon_name                 : link
+  - title                                 : Your Ideas, Our Future
+    description                           : We’re always looking for ways to improve. Share your feature suggestions with us, and help shape the app to better suit your needs. Your feedback drives our innovation!
+    fontawesome_icon_name                 : comment
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
