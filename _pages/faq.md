@@ -6,9 +6,9 @@ include_in_header: false
 
 # FAQ
 
-## How can I delete my data or account?
+## How can I delete my data?
 
-The app allows you to **manually track your income and expenses**.  
+The app lets you **manually record and manage your income and expenses**.  
 This financial data is stored **only on your device** in a local database.  
 We **do not upload or store your data on any server** — it remains completely private and under your control.
 
