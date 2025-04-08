@@ -3,10 +3,10 @@ layout: page
 title: FAQ
 include_in_header: false
 ---
+
 # FAQ
 
-<details open>
-<summary><strong>How can I delete my data or account?</strong></summary>
+## How can I delete my data or account?
 
 The app allows you to **manually track your income and expenses**.  
 This financial data is stored **only on your device** in a local database.  
@@ -14,9 +14,8 @@ We **do not upload or store your data on any server** — it remains completely 
 
 If you wish to delete this data, you have the following options:
 
----
-
 ### Option 1: Clear App Data via Device Settings
+
 1. Open your phone's **Settings**.
 2. Go to **Apps** (or **Applications**).
 3. Find and tap the name of our app.
@@ -25,33 +24,27 @@ If you wish to delete this data, you have the following options:
 
 This completely erases the app’s local database, removing all your financial entries.
 
----
-
 ### Option 2: Uninstall the App
+
 Uninstalling the app will also delete all associated data, including any finance records stored on your device.
 
 ---
-</details>
 
-<details>
-<summary><strong>Is any of my data stored remotely?</strong></summary>
+## Is any of my data stored remotely?
 
-No. All data you enter (such as expenses, income, or balances) is stored only on your device.  
-The app does not sync with any cloud service or external server by default.
+No. All data you enter (such as expenses, income, or balances) is stored **only on your device**.  
+The app does **not sync with any cloud service or external server** by default.
 
-</details>
+---
 
-<details>
-<summary><strong>Do I need to create an account to use the app?</strong></summary>
+## Do I need to create an account to use the app?
 
-No account is required. You can use the app without signing up, logging in, or providing personal information.
+No account is required.  
+You can use the app without signing up, logging in, or providing personal information.
 
-</details>
+---
 
-<details>
-<summary><strong>Is my financial data shared with third parties?</strong></summary>
+## Is my financial data shared with third parties?
 
 No. Your financial data is never shared with third parties, because it is not collected in the first place.  
 Everything is stored locally on your device only.
-
-</details>

@@ -3,7 +3,7 @@ layout: page
 title: Terms & Conditions
 include_in_header: false
 ---
-**Terms & Conditions**  
+# Terms & Conditions
 
 These terms and conditions applies to the Just Expenses app (hereby referred to as "Application") for mobile devices that was created by ZCT Labs (hereby referred to as "Service Provider") as a Freemium service.
 
