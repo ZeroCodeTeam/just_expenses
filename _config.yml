@@ -4,15 +4,15 @@ page_title                                : Just Expenses             # Automati
 # App Info
 ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             : https://apps.apple.com/us/app/id1373021367 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/us/app/just-expenses-money-manager/id1373021367?itscg=30200&itsct=home_page&mttnsubad=1373021367 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            : https://play.google.com/store/apps/details?id=org.zerocode.justexpenses&referrer=utm_source%3Dhome_page # Enter Google Play Store URL.
 # presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Just Expenses # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Simple Personal Finance Tracker # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Manage your finances with simplicity and security. With an intuitive interface, easily track expenses and income without hassle. Your data stays private—never leaving your device.
+app_price                                 : Finances made simple # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Simple, tile-based ledger system for effortlessly visualizing and controlling your finances.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -33,31 +33,43 @@ youtube_username                          : #
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
+
+  - title                                 : See Where Your Money Goes
+    description                           : Gain instant clarity on your spending habits. Identify leaks and discover exactly where your money is going so you can take control.
+    fontawesome_icon_name                 : search-dollar
+
+  - title                                 : Discover How Much You Can Save
+    description                           : With insightful charts and reports, you’ll spot savings opportunities and track progress toward your financial goals with confidence.
+    fontawesome_icon_name                 : chart-line
+
+  - title                                 : Your Data Stays With You
+    description                           : Your financial data never leaves your phone. It stays private, secure, and under your full control—no accounts or servers involved.
+    fontawesome_icon_name                 : shield-alt
+
+  - title                                 : Share Financial Reports in Seconds
+    description                           : Export your expenses with a tap—perfect for budgeting, taxes, or sharing with a partner. No hassle, just useful insights when you need them.
+    fontawesome_icon_name                 : file-export
+
+  - title                                 : Always Ready, Even Offline
+    description                           : Track your finances anywhere, anytime. Whether you’re on a plane or in a remote location, the app works fully without internet.
+    fontawesome_icon_name                 : plane
+
+  - title                                 : Built for Everyday Use
+    description                           : Whether you’re budgeting for groceries or planning a trip, Just Expenses helps you stay on track daily without overwhelming features.
+    fontawesome_icon_name                 : calendar-check
+
+  - title                                 : Customize to Fit Your Life
+    description                           : Tailor your categories, icons, and colors to match your lifestyle. The app bends to your habits—not the other way around.
+    fontawesome_icon_name                 : sliders-h
+
+  - title                                 : Lightweight and Fast
+    description                           : Don’t sacrifice speed or space. Our app runs smoothly on any phone and keeps things fast and responsive without draining your device.
+    fontawesome_icon_name                 : feather-alt
+
+  - title                                 : Evolving with Your Feedback
+    description                           : We listen. Your ideas shape the future of the app, with frequent updates focused on improving your day-to-day money management.
+    fontawesome_icon_name                 : comments
     
-  - title                                 : Keep Your Data Safe
-    description                           : Financial data is highly sensitive, making it essential to know where it’s stored. With our app, your data remains secure on your device and never leaves your phone. Only you have access, ensuring complete control and peace of mind.
-    fontawesome_icon_name                 : lock
-
-  - title                                 : Full Offline Access
-    description                           : No more waiting for data to load from remote servers. Our app was designed to work offline from day one, ensuring everything you need is right at your fingertips.
-    fontawesome_icon_name                 : wifi
-
-  - title                                 : Personalization
-    description                           : Take full control of your financial tracking by personalizing categories to match your unique spending habits. Tailor the app to reflect your lifestyle and get insights that are relevant to you, making budgeting and expense tracking more intuitive than ever.
-    fontawesome_icon_name                 : palette
-
-  - title                                 : Simplicity with Power
-    description                           : We aimed to create a product that is both simple and powerful. With this approach, we developed an app that runs seamlessly without needing any runtime permissions.
-    fontawesome_icon_name                 : adjust
-
-  - title                                 : Small App, Big Performance
-    description                           : We understand storage matters, especially for non-flagship phones. Our app is lightweight yet powerful, ensuring it runs smoothly and efficiently on any device.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Continuously Improving
-    description                           : We’re dedicated to providing the best experience with regular updates that enhance your journey. Your feedback is essential in shaping the app’s future. Share your ideas with us and start managing your finances with ease today!
-    fontawesome_icon_name                 : forward
-
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
@@ -71,11 +83,11 @@ topbar_title_color                        : "#ffffff"
 
 cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_overlay_transparency                : 0.0
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color                     : "#e9eff5"
 
 link_color                                : "#1d63ea"
 
