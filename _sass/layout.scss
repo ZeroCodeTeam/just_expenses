@@ -685,3 +685,32 @@ footer {
 .hidden {
 	display: none;
 }
+
+@media (prefers-color-scheme: dark) {
+    .subPageBody {
+        background-color: #1c1c1e;
+    }
+
+    .subPageHeaderBackground {
+        background-color: #1c1c1e;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .subPageContainer {
+        background-color: #1c1c1e;
+    }
+
+    .subPageHeaderBackground .logo > p {
+        color: #f2f2f7;
+    }
+
+    .subPageHeaderBackground nav > ul li a:link,
+    .subPageHeaderBackground nav > ul li a:visited {
+        color: rgba(242, 242, 247, 0.6);
+    }
+
+    .subPageHeaderBackground nav > ul li a:hover,
+    .subPageHeaderBackground nav > ul li a:active {
+        color: rgba(242, 242, 247, 1);
+    }
+}

@@ -52,6 +52,17 @@ $drop-shadow: 	drop-shadow(0px 5px 10px rgba(#000, 0.1))
 				drop-shadow(0px 1px 1px rgba(#000, 0.2)
 				);
 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1c1e;
+        color: #f2f2f7;
+    }
+
+    .subPageBody {
+        background-color: #1c1c1e;
+    }
+}
+
 // Various resets
 *,
 *::before,
