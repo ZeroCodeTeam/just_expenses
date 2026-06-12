@@ -713,4 +713,13 @@ footer {
     .subPageHeaderBackground nav > ul li a:active {
         color: rgba(242, 242, 247, 1);
     }
+
+    .appName,
+    .featureText > h3 {
+        color: #f2f2f7;
+    }
+
+    .iphonePreview {
+        background-image: url("assets/white.png");
+    }
 }
