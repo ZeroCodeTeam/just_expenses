@@ -19,4 +19,20 @@
 	<link rel="stylesheet" href="/main.css">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="../main.css">
+
+	<!-- Platform detection, runs before first paint so the download area renders in the right order -->
+	<script>
+		(function () {
+			var userAgent = window.navigator.userAgent;
+			var platform;
+			if (/iPhone|iPad|iPod/.test(userAgent) || (/Macintosh/.test(userAgent) && navigator.maxTouchPoints > 1)) {
+				platform = 'platform-ios';
+			} else if (/Android/.test(userAgent)) {
+				platform = 'platform-android';
+			} else {
+				platform = 'platform-desktop';
+			}
+			document.documentElement.className += ' ' + platform;
+		})();
+	</script>
 </head>
