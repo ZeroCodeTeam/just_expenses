@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 714px;
+	height: 571px;
 	background: 
 		linear-gradient(
 		rgba($image-overlay-color, $image-overlay-transparency), 
@@ -51,6 +51,72 @@
 .subPageContainer {
 	grid-template-rows: 115px auto auto auto;
 	background-color: #fff;
+}
+
+// The home page has no top navigation bar, so drop the empty header row and
+// pull the content up. The header pane heights are reduced to match.
+
+.container.homeContainer {
+	grid-template-rows: 0px 848px auto auto;
+}
+
+.homeContainer .iphonePreview {
+	margin-top: 40px;
+}
+
+.homeContainer .appInfo {
+	padding-top: 112px;
+}
+
+// Below 992px the content stacks and its height depends on how the text wraps,
+// so a fixed-height header pane can't fit every phone. Instead the blue pane is
+// drawn behind .appInfo itself and grows with it.
+
+@media only screen and (max-width: 992px) {
+
+	.imageWrapper,
+	html.platform-desktop .imageWrapper {
+		height: auto;
+		background: none;
+	}
+
+	.homeContainer .appInfo {
+		position: relative;
+		padding-bottom: 50px;
+	}
+
+	.homeContainer .appInfo::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: -15px;		// bleed over the .container side padding
+		right: -15px;
+		z-index: -1;
+		background:
+			linear-gradient(
+			rgba($image-overlay-color, $image-overlay-transparency),
+			rgba($image-overlay-color, $image-overlay-transparency)
+			),
+			url($header-image);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top;
+		border-radius: 0px 0px 40px 40px;
+	}
+
+	.container.homeContainer {
+		grid-template-rows: 0px auto auto auto auto;
+	}
+
+	.homeContainer .iphonePreview {
+		margin-top: 47px;
+	}
+
+	.homeContainer .appInfo {
+		padding-top: 50px;
+	}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -357,6 +423,26 @@ nav > ul li a:active {
 
 }
 
+.storeBadges {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+@media only screen and (max-width: 528px) {
+
+	.storeBadges {
+		flex-direction: column;
+	}
+
+}
+
+.playStoreLink,
+.appStoreLink {
+	display: block;
+	line-height: 0;
+}
+
 .playStore {
 	height: 75px;
 }
@@ -403,15 +489,17 @@ html.platform-android {
 
 }
 
-html.platform-desktop {
+// Desktop: QR card with the official store badges stacked beside it.
 
-	.playStoreLink,
-	.appStoreLink {
-		display: none;
-	}
+html.platform-desktop {
 
 	.qrDownload {
 		display: flex;
+	}
+
+	.storeBadges {
+		flex-direction: column;
+		gap: 16px;
 	}
 
 }
@@ -429,24 +517,17 @@ html.platform-desktop {
 	color: #000;
 }
 
-// The QR card is taller than the store badges it replaces, so the header pane
-// is extended on desktop to keep the card comfortably inside it.
+// The QR card is taller than the store badges alone, so the header pane is
+// extended on wide desktop screens to keep the card comfortably inside it.
 
 @media only screen and (min-width: 993px) {
 
 	html.platform-desktop .imageWrapper {
-		height: 880px;
+		height: 737px;
 	}
 
 }
 
-@media only screen and (max-width: 992px) {
-
-	html.platform-desktop .imageWrapper {
-		height: 820px;
-	}
-
-}
 
 
 
